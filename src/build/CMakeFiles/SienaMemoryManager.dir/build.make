@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/Alisiena/Programming/c/MemoryManager/src
+CMAKE_SOURCE_DIR = /home/Alisiena/Programming/c/SienaMemoryAllocator/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/Alisiena/Programming/c/MemoryManager/src/build
+CMAKE_BINARY_DIR = /home/Alisiena/Programming/c/SienaMemoryAllocator/src/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/SienaMemoryManager.dir/depend.make
@@ -70,30 +70,46 @@ include CMakeFiles/SienaMemoryManager.dir/progress.make
 include CMakeFiles/SienaMemoryManager.dir/flags.make
 
 CMakeFiles/SienaMemoryManager.dir/main.c.o: CMakeFiles/SienaMemoryManager.dir/flags.make
-CMakeFiles/SienaMemoryManager.dir/main.c.o: /home/Alisiena/Programming/c/MemoryManager/src/main.c
+CMakeFiles/SienaMemoryManager.dir/main.c.o: /home/Alisiena/Programming/c/SienaMemoryAllocator/src/main.c
 CMakeFiles/SienaMemoryManager.dir/main.c.o: CMakeFiles/SienaMemoryManager.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Alisiena/Programming/c/MemoryManager/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/SienaMemoryManager.dir/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SienaMemoryManager.dir/main.c.o -MF CMakeFiles/SienaMemoryManager.dir/main.c.o.d -o CMakeFiles/SienaMemoryManager.dir/main.c.o -c /home/Alisiena/Programming/c/MemoryManager/src/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Alisiena/Programming/c/SienaMemoryAllocator/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/SienaMemoryManager.dir/main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SienaMemoryManager.dir/main.c.o -MF CMakeFiles/SienaMemoryManager.dir/main.c.o.d -o CMakeFiles/SienaMemoryManager.dir/main.c.o -c /home/Alisiena/Programming/c/SienaMemoryAllocator/src/main.c
 
 CMakeFiles/SienaMemoryManager.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SienaMemoryManager.dir/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Alisiena/Programming/c/MemoryManager/src/main.c > CMakeFiles/SienaMemoryManager.dir/main.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Alisiena/Programming/c/SienaMemoryAllocator/src/main.c > CMakeFiles/SienaMemoryManager.dir/main.c.i
 
 CMakeFiles/SienaMemoryManager.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SienaMemoryManager.dir/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Alisiena/Programming/c/MemoryManager/src/main.c -o CMakeFiles/SienaMemoryManager.dir/main.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Alisiena/Programming/c/SienaMemoryAllocator/src/main.c -o CMakeFiles/SienaMemoryManager.dir/main.c.s
+
+CMakeFiles/SienaMemoryManager.dir/sienamemory.c.o: CMakeFiles/SienaMemoryManager.dir/flags.make
+CMakeFiles/SienaMemoryManager.dir/sienamemory.c.o: /home/Alisiena/Programming/c/SienaMemoryAllocator/src/sienamemory.c
+CMakeFiles/SienaMemoryManager.dir/sienamemory.c.o: CMakeFiles/SienaMemoryManager.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Alisiena/Programming/c/SienaMemoryAllocator/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/SienaMemoryManager.dir/sienamemory.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SienaMemoryManager.dir/sienamemory.c.o -MF CMakeFiles/SienaMemoryManager.dir/sienamemory.c.o.d -o CMakeFiles/SienaMemoryManager.dir/sienamemory.c.o -c /home/Alisiena/Programming/c/SienaMemoryAllocator/src/sienamemory.c
+
+CMakeFiles/SienaMemoryManager.dir/sienamemory.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SienaMemoryManager.dir/sienamemory.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Alisiena/Programming/c/SienaMemoryAllocator/src/sienamemory.c > CMakeFiles/SienaMemoryManager.dir/sienamemory.c.i
+
+CMakeFiles/SienaMemoryManager.dir/sienamemory.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SienaMemoryManager.dir/sienamemory.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Alisiena/Programming/c/SienaMemoryAllocator/src/sienamemory.c -o CMakeFiles/SienaMemoryManager.dir/sienamemory.c.s
 
 # Object files for target SienaMemoryManager
 SienaMemoryManager_OBJECTS = \
-"CMakeFiles/SienaMemoryManager.dir/main.c.o"
+"CMakeFiles/SienaMemoryManager.dir/main.c.o" \
+"CMakeFiles/SienaMemoryManager.dir/sienamemory.c.o"
 
 # External object files for target SienaMemoryManager
 SienaMemoryManager_EXTERNAL_OBJECTS =
 
 SienaMemoryManager: CMakeFiles/SienaMemoryManager.dir/main.c.o
+SienaMemoryManager: CMakeFiles/SienaMemoryManager.dir/sienamemory.c.o
 SienaMemoryManager: CMakeFiles/SienaMemoryManager.dir/build.make
 SienaMemoryManager: CMakeFiles/SienaMemoryManager.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/Alisiena/Programming/c/MemoryManager/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable SienaMemoryManager"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/Alisiena/Programming/c/SienaMemoryAllocator/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable SienaMemoryManager"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SienaMemoryManager.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -105,6 +121,6 @@ CMakeFiles/SienaMemoryManager.dir/clean:
 .PHONY : CMakeFiles/SienaMemoryManager.dir/clean
 
 CMakeFiles/SienaMemoryManager.dir/depend:
-	cd /home/Alisiena/Programming/c/MemoryManager/src/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/Alisiena/Programming/c/MemoryManager/src /home/Alisiena/Programming/c/MemoryManager/src /home/Alisiena/Programming/c/MemoryManager/src/build /home/Alisiena/Programming/c/MemoryManager/src/build /home/Alisiena/Programming/c/MemoryManager/src/build/CMakeFiles/SienaMemoryManager.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/Alisiena/Programming/c/SienaMemoryAllocator/src/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/Alisiena/Programming/c/SienaMemoryAllocator/src /home/Alisiena/Programming/c/SienaMemoryAllocator/src /home/Alisiena/Programming/c/SienaMemoryAllocator/src/build /home/Alisiena/Programming/c/SienaMemoryAllocator/src/build /home/Alisiena/Programming/c/SienaMemoryAllocator/src/build/CMakeFiles/SienaMemoryManager.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/SienaMemoryManager.dir/depend
 

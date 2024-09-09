@@ -1,1 +1,1 @@
-/usr/bin/cc -O3 -DNDEBUG CMakeFiles/SienaMemoryManager.dir/main.c.o -o SienaMemoryManager
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/SienaMemoryManager.dir/main.c.o CMakeFiles/SienaMemoryManager.dir/sienamemory.c.o -o SienaMemoryManager

@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/Alisiena/Programming/c/MemoryManager/src
+CMAKE_SOURCE_DIR = /home/Alisiena/Programming/c/SienaMemoryAllocator/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/Alisiena/Programming/c/MemoryManager/src/build
+CMAKE_BINARY_DIR = /home/Alisiena/Programming/c/SienaMemoryAllocator/src/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/Alisiena/Programming/c/MemoryManager/src/build/CMakeFiles /home/Alisiena/Programming/c/MemoryManager/src/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/Alisiena/Programming/c/SienaMemoryAllocator/src/build/CMakeFiles /home/Alisiena/Programming/c/SienaMemoryAllocator/src/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/Alisiena/Programming/c/MemoryManager/src/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/Alisiena/Programming/c/SienaMemoryAllocator/src/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -153,6 +153,30 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SienaMemoryManager.dir/build.make CMakeFiles/SienaMemoryManager.dir/main.c.s
 .PHONY : main.c.s
 
+sienamemory.o: sienamemory.c.o
+.PHONY : sienamemory.o
+
+# target to build an object file
+sienamemory.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SienaMemoryManager.dir/build.make CMakeFiles/SienaMemoryManager.dir/sienamemory.c.o
+.PHONY : sienamemory.c.o
+
+sienamemory.i: sienamemory.c.i
+.PHONY : sienamemory.i
+
+# target to preprocess a source file
+sienamemory.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SienaMemoryManager.dir/build.make CMakeFiles/SienaMemoryManager.dir/sienamemory.c.i
+.PHONY : sienamemory.c.i
+
+sienamemory.s: sienamemory.c.s
+.PHONY : sienamemory.s
+
+# target to generate assembly for a file
+sienamemory.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SienaMemoryManager.dir/build.make CMakeFiles/SienaMemoryManager.dir/sienamemory.c.s
+.PHONY : sienamemory.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -165,6 +189,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... sienamemory.o"
+	@echo "... sienamemory.i"
+	@echo "... sienamemory.s"
 .PHONY : help
 
 

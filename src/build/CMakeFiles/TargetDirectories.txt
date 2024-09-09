@@ -1,3 +1,3 @@
-/home/Alisiena/Programming/c/MemoryManager/src/build/CMakeFiles/SienaMemoryManager.dir
-/home/Alisiena/Programming/c/MemoryManager/src/build/CMakeFiles/edit_cache.dir
-/home/Alisiena/Programming/c/MemoryManager/src/build/CMakeFiles/rebuild_cache.dir
+/home/Alisiena/Programming/c/SienaMemoryAllocator/src/build/CMakeFiles/SienaMemoryManager.dir
+/home/Alisiena/Programming/c/SienaMemoryAllocator/src/build/CMakeFiles/edit_cache.dir
+/home/Alisiena/Programming/c/SienaMemoryAllocator/src/build/CMakeFiles/rebuild_cache.dir

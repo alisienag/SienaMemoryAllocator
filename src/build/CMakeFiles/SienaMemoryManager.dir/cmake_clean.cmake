@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/SienaMemoryManager.dir/main.c.o"
   "CMakeFiles/SienaMemoryManager.dir/main.c.o.d"
+  "CMakeFiles/SienaMemoryManager.dir/sienamemory.c.o"
+  "CMakeFiles/SienaMemoryManager.dir/sienamemory.c.o.d"
   "SienaMemoryManager"
   "SienaMemoryManager.pdb"
 )
