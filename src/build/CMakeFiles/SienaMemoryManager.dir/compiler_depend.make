@@ -32,7 +32,8 @@ CMakeFiles/SienaMemoryManager.dir/main.c.o: /home/Alisiena/Programming/c/SienaMe
 
 CMakeFiles/SienaMemoryManager.dir/sienamemory.c.o: /home/Alisiena/Programming/c/SienaMemoryAllocator/src/sienamemory.c \
   /home/Alisiena/Programming/c/SienaMemoryAllocator/include/sienamemory.h \
-  /usr/include/stdc-predef.h
+  /usr/include/stdc-predef.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stddef.h
 
 
 /home/Alisiena/Programming/c/SienaMemoryAllocator/include/sienamemory.h:
